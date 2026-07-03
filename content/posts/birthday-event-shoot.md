@@ -5,7 +5,6 @@ draft: false
 tags: ["meta"]
 description: "A Birthday Event Shoot."
 ---
-# A Birthday Event Shoot
 
 Had a recent shoot for a 50th Birthday event. Every shoot I learn something, there is always a takeaway - like a retrospective!
 
