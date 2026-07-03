@@ -17,9 +17,6 @@ The cake cutting begins and D810 with the wide angle lens, shows “Card error�
 
 I just stepped back, made sure nobody was blocking my view and framed a wide shot with my Z7 and 70-200mm, now set at 70mm. Thankfully it worked and the light was enough.
 
-
----
-
 Those few moments in an Event Photographer’s life send chills down your spine. I have had many such incidents - either the card stopped working (it’s nice that there are 2 cards in most modern professional cameras and I have one of them set as a “Backup” so every photo gets saved on both cards), or the camera had too many clicks and just wanted to take a nap, or a battery dies at the most crucial moment, or a card goes Full, or the camera simply refuses to focus..
 
 ``Each such moment teaches one to have a backup plan!``
