@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: kbhave/somik-photography-blog
+  branch: main
+  base_url: https://sveltia-cms-auth.kbhave.workers.dev
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: posts
+    label: Blog Posts
+    folder: content/posts
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, format: "2006-01-02", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: Draft, name: draft, widget: boolean, default: false }
+      - { label: Description, name: description, widget: string, required: false }
+      - { label: Tags, name: tags, widget: list, required: false }
+      - label: Cover Image
+        name: cover
+        widget: object
+        required: false
+        collapsed: true
+        fields:
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Alt Text, name: alt, widget: string, required: false }
+      - { label: Body, name: body, widget: markdown }
+
+  - name: pages
+    label: Pages
+    files:
+      - label: About
+        name: about
+        file: content/about.md
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
