@@ -1,0 +1,119 @@
+baseURL: "https://somik.photography/"
+languageCode: en-us
+title: Somik Photography
+theme: PaperMod
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Somik Photography
+  description: "Photography, travel, and life behind the lens."
+  author: Somik
+  images: ["/images/og-default.jpg"]
+
+  defaultTheme: dark
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+    favicon: "/favicon.ico"
+
+  label:
+    text: "Somik Photography"
+
+  # Home page — profile mode
+  profileMode:
+    enabled: true
+    title: "Somik Photography"
+    subtitle: "Photography, travel, and life behind the lens."
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: Somik
+    buttons:
+      - name: Blog
+        url: posts
+      - name: Portfolio
+        url: "https://somikphotography.com"
+
+  socialIcons:
+    - name: instagram
+      url: "https://instagram.com/"
+    - name: rss
+      url: "index.xml"
+
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: false
+    responsiveImages: true
+    linkFullImages: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: portfolio
+      name: Portfolio
+      url: "https://somikphotography.com"
+      weight: 30
+    - identifier: darksky
+      name: Dark Sky Guide
+      url: "https://darksky.somik.photography"
+      weight: 40
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 50
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 60
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
