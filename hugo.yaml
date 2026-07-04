@@ -19,7 +19,7 @@ params:
   title: Somik Photography
   description: "Photography, travel, and life behind the lens."
   author: Somik
-  images: ["/images/og-default.jpg"]
+  images: ["/images/profile.jpg"]
 
   defaultTheme: dark
   disableThemeToggle: false
