@@ -1,9 +1,10 @@
 ---
-title: "Hello, new blog"
+title: Hello, New Blog
 date: 2026-07-03
 draft: false
-tags: ["meta"]
-description: "Moving from Squarespace to Hugo — why and what's next."
+description: Moving from Squarespace to Hugo — why and what's next.
+tags:
+  - meta
 ---
 
 After a couple of years on Squarespace, I've moved this blog to [Hugo](https://gohugo.io) hosted on GitHub Pages. Faster, cheaper (free), and I own the content in plain Markdown files rather than locked inside someone else's platform.
