@@ -38,4 +38,6 @@ With the hope that I will have at least one or two shots of totality with me, I 
 
 #### THE ECLIPSE BUG !
 
-Looking forward to the next one in 2026 from Iceland.. if my stars align!
+```plain
+Looking forward to the next one in 2027 from Egypt.. if my stars align!
+```
