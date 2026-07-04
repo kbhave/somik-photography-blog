@@ -60,7 +60,7 @@ params:
       - name: Blog
         url: posts
       - name: Portfolio
-        url: "https://somikphotography.com"
+        url: "https://www.somikphotography.com"
 
   socialIcons:
     - name: instagram
@@ -97,7 +97,7 @@ menu:
       weight: 20
     - identifier: portfolio
       name: Portfolio
-      url: "https://somikphotography.com"
+      url: "https://www.somikphotography.com"
       weight: 30
     - identifier: darksky
       name: Dark Sky Guide
