@@ -5,7 +5,9 @@ draft: false
 description: My 2024 Total Solar Eclipse Story
 tags:
   - Solar Eclipse, 2024, Ohio, Total Solar Eclipse
-cover: null
+cover:
+  image: /images/Collage.jpg
+  alt: ''
 ---
 
 #### Date: Apr 8, 2024 \* Start Time: 1:55pm \* Totality: @3:15pm for 3 mins 45 sec \* 
