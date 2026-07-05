@@ -7,6 +7,8 @@ tags:
   - meta
 ---
 
+![](/images/DSC_3070.jpg)
+
 After a couple of years on Squarespace, I've moved this blog to [Hugo](https://gohugo.io) hosted on GitHub Pages. Faster, cheaper (free), and I own the content in plain Markdown files rather than locked inside someone else's platform.
 
 The migration took an afternoon. Everything that was on the Squarespace blog is being moved over gradually.
